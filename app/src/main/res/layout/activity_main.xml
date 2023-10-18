@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.MainActivity">
+
+    <!-- Close view -->
+    <FrameLayout
+        android:id="@+id/closeView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:visibility="invisible">
+        <!-- Add content for the close view -->
+    </FrameLayout>
+
+    <!-- Floating view -->
+    <FrameLayout
+        android:id="@+id/floatingView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent">
+        <!-- Add content for the floating view -->
+    </FrameLayout>
+
+</RelativeLayout>
